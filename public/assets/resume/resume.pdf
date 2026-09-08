@@ -1,0 +1,113 @@
+%PDF-1.4
+1 0 obj
+<< /Pages 2 0 R /Type /Catalog >>
+endobj
+2 0 obj
+<< /Kids [5 0 R] /Count 1 /Type /Pages >>
+endobj
+3 0 obj
+<< /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Type /Font >>
+endobj
+4 0 obj
+<< /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Type /Font >>
+endobj
+5 0 obj
+<< /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Type /Font >>
+endobj
+6 0 obj
+<< /Length 7540 >>
+stream
+q 0.070 0.100 0.180 rg BT /F2 21 Tf 46.00 746.00 Td (MAYANK GAWANDE) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F2 10.5 Tf 46.00 730.00 Td (Software Development Engineer  |  Full-Stack Developer) Tj ET Q
+q 0.420 0.460 0.540 rg BT /F1 8.5 Tf 46.00 716.00 Td (Pune, Maharashtra, India   |   mayankgawande23@gmail.com   |   linkedin.com/in/mayank-gawande   |   github.com/MayankGawande) Tj ET Q
+q 0.840 0.870 0.920 RG 1.2 w 46.00 706.00 m 566.00 706.00 l S Q
+q 0.120 0.380 0.880 rg BT /F2 9.5 Tf 46.00 692.00 Td (EDUCATION) Tj ET Q
+q 0.840 0.870 0.920 RG 0.8 w 46.00 688.00 m 566.00 688.00 l S Q
+q 0.070 0.100 0.180 rg BT /F2 9.5 Tf 46.00 676.00 Td (Bachelor of Engineering \(B.E.\) in Computer Engineering) Tj ET Q
+q 0.420 0.460 0.540 rg BT /F2 9 Tf 512.00 676.00 Td (2022 - 2026) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F3 8.5 Tf 46.00 664.00 Td (Smt. Kashibai Navale College of Engineering, Pune) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F2 8.5 Tf 490.00 664.00 Td (CGPA: 8.05 / 10.0) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F2 9.5 Tf 46.00 649.00 Td (TECHNICAL SKILLS) Tj ET Q
+q 0.840 0.870 0.920 RG 0.8 w 46.00 645.00 m 566.00 645.00 l S Q
+q 0.070 0.100 0.180 rg BT /F2 8.5 Tf 46.00 633.00 Td (Languages:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.5 Tf 148.00 633.00 Td (Java \(Core & Advanced\), JavaScript \(ES6+\), SQL, HTML5, CSS3) Tj ET Q
+q 0.070 0.100 0.180 rg BT /F2 8.5 Tf 46.00 621.00 Td (Backend & APIs:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.5 Tf 148.00 621.00 Td (Spring Boot, Spring Security, RESTful APIs, Microservices, Hibernate / JPA, JWT, API Gateway) Tj ET Q
+q 0.070 0.100 0.180 rg BT /F2 8.5 Tf 46.00 609.00 Td (Frontend:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.5 Tf 148.00 609.00 Td (React.js, Responsive Web Development, Tailwind CSS, Modern UI Components) Tj ET Q
+q 0.070 0.100 0.180 rg BT /F2 8.5 Tf 46.00 597.00 Td (Databases:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.5 Tf 148.00 597.00 Td (MySQL \(Schema Design, Query Optimization, Transaction Management\)) Tj ET Q
+q 0.070 0.100 0.180 rg BT /F2 8.5 Tf 46.00 585.00 Td (Core Concepts:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.5 Tf 148.00 585.00 Td (Data Structures & Algorithms, Object-Oriented Programming \(OOP\), System Design) Tj ET Q
+q 0.070 0.100 0.180 rg BT /F2 8.5 Tf 46.00 573.00 Td (Tools & Platforms:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.5 Tf 148.00 573.00 Td (Git, GitHub, Docker, Postman, Maven, VS Code, IntelliJ IDEA, Figma) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F2 9.5 Tf 46.00 558.00 Td (INTERNSHIP EXPERIENCE) Tj ET Q
+q 0.840 0.870 0.920 RG 0.8 w 46.00 554.00 m 566.00 554.00 l S Q
+q 0.070 0.100 0.180 rg BT /F2 9.5 Tf 46.00 542.00 Td (Full-Stack Developer Intern) Tj ET Q
+q 0.420 0.460 0.540 rg BT /F2 8.5 Tf 471.00 542.00 Td (May 2025 - Present) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F3 8.5 Tf 46.00 530.00 Td (Technocraft Labs) Tj ET Q
+q 0.420 0.460 0.540 rg BT /F1 8.5 Tf 514.00 530.00 Td (Pune, India) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 520.50 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 518.00 Td (Engineered scalable backend microservices and RESTful endpoints using Java, Spring Boot, and JPA/Hibernate.) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 509.30 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 506.80 Td (Implemented secure JWT-based authentication and role-based access control \(RBAC\) across distributed services.) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 498.10 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 495.60 Td (Designed normalized MySQL database schemas with optimized query execution, improving data retrieval efficiency.) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 486.90 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 484.40 Td (Developed interactive, responsive web components using React.js and integrated backend REST APIs seamlessly.) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 475.70 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 473.20 Td (Collaborated in agile development sprints utilizing Git for version control, Postman for API testing, and Docker.) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F2 9.5 Tf 46.00 458.00 Td (KEY PROJECTS) Tj ET Q
+q 0.840 0.870 0.920 RG 0.8 w 46.00 454.00 m 566.00 454.00 l S Q
+q 0.070 0.100 0.180 rg BT /F2 9.2 Tf 46.00 442.00 Td (ShopSphere - Distributed E-Commerce Microservices) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F3 8 Tf 351.00 442.00 Td (Java, Spring Boot, MySQL, Docker, JWT, API Gateway) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 433.50 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 431.00 Td (Architected decoupled microservices with API Gateway routing, centralized JWT authorization, and resilient communication.) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 422.70 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 420.20 Td (Engineered product catalog, order processing, and dynamic inventory management modules with strict ACID transactions.) Tj ET Q
+q 0.070 0.100 0.180 rg BT /F2 9.2 Tf 46.00 406.40 Td (DevPulse - Real-Time Developer Analytics Platform) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F3 8 Tf 356.00 406.40 Td (Java, Spring Boot, React.js, MySQL, REST APIs, JWT) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 397.90 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 395.40 Td (Created a unified developer productivity dashboard tracking code velocity, deployment metrics, and system uptime.) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 387.10 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 384.60 Td (Optimized MySQL indexes and query joins, delivering sub-20ms API response latency under concurrent workloads.) Tj ET Q
+q 0.070 0.100 0.180 rg BT /F2 9.2 Tf 46.00 370.80 Td (CloudVault - Secure File Storage & Sharing System) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F3 8 Tf 344.00 370.80 Td (Java, Spring Boot, JWT, Hibernate/JPA, React.js, MySQL) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 362.30 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 359.80 Td (Designed role-based secure file storage supporting chunked uploads, permission-based link sharing, and encrypted metadata.) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 351.50 2.50 2.50 re f Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 60.00 349.00 Td (Implemented JWT token validation with granular download expiration policies and comprehensive user access logs.) Tj ET Q
+q 0.120 0.380 0.880 rg BT /F2 9.5 Tf 46.00 334.20 Td (CERTIFICATIONS & ACHIEVEMENTS) Tj ET Q
+q 0.840 0.870 0.920 RG 0.8 w 46.00 330.20 m 566.00 330.20 l S Q
+q 0.120 0.380 0.880 rg 50.00 320.70 2.50 2.50 re f Q
+q 0.070 0.100 0.180 rg BT /F2 8.2 Tf 60.00 318.20 Td (Smart India Hackathon \(SIH\) 2025 Grand Finale:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 304.00 318.20 Td (Waitlisted Category - National-level Hackathon \(2025\)) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 309.90 2.50 2.50 re f Q
+q 0.070 0.100 0.180 rg BT /F2 8.2 Tf 60.00 307.40 Td (Oracle Cloud Infrastructure 2025 Generative AI Professional:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 304.00 307.40 Td (Oracle Certified Associate \(Verification Badge ID: F5348617\)) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 299.10 2.50 2.50 re f Q
+q 0.070 0.100 0.180 rg BT /F2 8.2 Tf 60.00 296.60 Td (Introduction to IoT and Digital Transformation:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 304.00 296.60 Td (Cisco Networking Academy \(Industry Certification\)) Tj ET Q
+q 0.120 0.380 0.880 rg 50.00 288.30 2.50 2.50 re f Q
+q 0.070 0.100 0.180 rg BT /F2 8.2 Tf 60.00 285.80 Td (Software Development Job Simulation:) Tj ET Q
+q 0.240 0.280 0.360 rg BT /F1 8.2 Tf 304.00 285.80 Td (Forage Job Simulation \(Practical Engineering Simulation\)) Tj ET Q
+endstream
+endobj
+7 0 obj
+<< /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R /Type /Page >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000212 00000 n 
+0000000314 00000 n 
+0000000419 00000 n 
+0000008011 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+8157
+%%EOF

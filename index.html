@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayank Gawande | Software Engineer & Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Mayank Gawande - Software Engineer & Full-Stack Developer specializing in scalable backend systems, modern web applications, and distributed architecture." />
+  <meta property="og:title" content="Mayank Gawande | Software Engineer & Full-Stack Developer" />
+  <meta property="og:description" content="Portfolio of Mayank Gawande - Software Engineer & Full-Stack Developer specializing in scalable backend systems, modern web applications, and distributed architecture." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core CSS Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Blobs -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="ambient-blob-1"></div>
+    <div class="ambient-blob-2"></div>
+  </div>
+
+  <!-- Mouse Cursor Spotlight Effect -->
+  <div class="cursor-spotlight" id="cursorSpotlight" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="mainHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo with Interactive Profile Card -->
+      <div class="brand-wrapper" id="brandWrapper">
+        <button type="button" class="brand-logo" id="brandLogo" aria-label="Mayank - Toggle profile card" aria-expanded="false" aria-haspopup="dialog" aria-controls="profileCard">
+          Mayank Gawande<span class="brand-dot" aria-hidden="true"></span>
+        </button>
+
+        <!-- Personal Profile Card -->
+        <div class="profile-card" id="profileCard" role="region" aria-label="A little more about Mayank" aria-hidden="true">
+          <div class="profile-card-arrow" aria-hidden="true"></div>
+          
+          <div class="profile-card-header">
+            <div class="profile-card-avatar" aria-hidden="true">M</div>
+            <div class="profile-card-identity">
+              <span class="profile-card-name">Mayank<span class="brand-dot" aria-hidden="true"></span></span>
+              <span class="profile-card-subtitle">A little more about me</span>
+            </div>
+          </div>
+
+          <div class="profile-card-list">
+            <div class="profile-card-item">
+              <span class="profile-card-label">🧠 What I enjoy</span>
+              <span class="profile-card-value">Solving problems</span>
+            </div>
+
+            <div class="profile-card-item">
+              <span class="profile-card-label">🌱 Currently learning</span>
+              <span class="profile-card-value">Something new every day</span>
+            </div>
+
+            <div class="profile-card-item">
+              <span class="profile-card-label">🚀 Personal goal</span>
+              <span class="profile-card-value">Build things people use</span>
+            </div>
+
+            <div class="profile-card-divider" aria-hidden="true"></div>
+
+            <div class="profile-card-meta-item">
+              <span>🎧 I love listening to music</span>
+            </div>
+
+            <div class="profile-card-item">
+              <span class="profile-card-label">☕ My fuel</span>
+              <span class="profile-card-value">Coffee + debugging</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-links-wrapper" id="navLinksWrapper" aria-label="Primary Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active" id="navLinkHome">Home</a></li>
+          <li><a href="#about" class="nav-link" id="navLinkAbout">About</a></li>
+          <li><a href="#capabilities" class="nav-link" id="navLinkCapabilities">Capabilities</a></li>
+          <li><a href="#experience" class="nav-link" id="navLinkExperience">Experience</a></li>
+          <li><a href="#projects" class="nav-link" id="navLinkProjects">Projects</a></li>
+          <li><a href="#contact" class="nav-link" id="navLinkContact">Contact</a></li>
+          <li class="mobile-nav-resume-item">
+            <a href="https://drive.google.com/file/d/1e3cGXRh-2clFVdHa2fN92yISr5lYmoL2/view" target="_blank" rel="noopener noreferrer" class="mobile-nav-resume-btn" id="mobileNavResume" aria-label="View Resume (opens in a new tab)">
+              <span>Resume</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Actions (Theme Toggle, Resume & Mobile Toggle) -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle theme" title="Toggle Light / Dark theme">
+          <!-- Sun Icon (shown in dark mode) -->
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (shown in light mode) -->
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="https://drive.google.com/file/d/1e3cGXRh-2clFVdHa2fN92yISr5lYmoL2/view" target="_blank" rel="noopener noreferrer" class="nav-resume-btn" id="navResumeBtn" aria-label="View Resume (opens in a new tab)">
+          <span>Resume</span>
+          <svg class="resume-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="navLinksWrapper">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- Mobile Menu Backdrop -->
+  <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+  <main>
+    <!-- ======================================================================
+         Hero Section
+         ====================================================================== -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content reveal-init">
+            <!-- Status Badge -->
+            <div class="status-pill" id="heroStatusPill">
+              <span class="pulse-dot"></span>
+              <span>Available for new opportunities</span>
+            </div>
+
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Mayank Gawande</h1>
+            <h2 class="hero-title" id="heroTitle" aria-label="Software Engineer and Full-Stack Developer">
+              <span class="sr-only">Software Engineer / Full-Stack Developer</span>
+              <span class="hero-title-rotator" id="heroTitleRotator" aria-hidden="true">
+                <span class="rotator-item active">Software Engineer</span>
+                <span class="rotator-item">Full-Stack Developer</span>
+              </span>
+            </h2>
+
+            <p class="hero-desc">
+              Building scalable software, intelligent systems, and meaningful digital experiences with high performance and elegant architecture.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary" id="btnHeroProjects">
+                View My Work
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary" id="btnHeroContact">
+                Contact Me
+              </a>
+            </div>
+
+            <div class="hero-socials" id="heroSocials">
+              <!-- GitHub -->
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile" title="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <!-- Email -->
+              <a href="mailto:mayankgawande23@gmail.com" class="social-link" aria-label="Send Email" title="Email Me">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Interactive Visual Canvas & 3D Tilt Card -->
+          <div class="hero-visual-wrapper reveal-init stagger-2">
+            <div class="hero-canvas-container">
+              <canvas id="heroCanvas"></canvas>
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge floating-badge-1" id="badgeDistributed">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              <span>Distributed Architecture</span>
+            </div>
+
+            <div class="floating-badge floating-badge-2" id="badgePerformance">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+              <!-- <span>Sub-10ms Latency</span> -->
+            </div>
+
+            <!-- 3D Interactive Card -->
+            <div class="hero-interactive-card" data-tilt id="heroInteractiveCard" aria-label="Interactive developer actions visual">
+              <div class="card-topbar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-green"></span>
+                </div>
+                <span class="window-title">Developer.java</span>
+                <span class="badge dev-status-badge">JVM 21</span>
+              </div>
+
+              <div class="dev-action-viewport" id="devActionViewport">
+                <!-- Screen reader accessible summary -->
+                <div class="sr-only">Full-Stack Developer capabilities: Build Web Applications, Develop Secure REST APIs, Implement JWT Authentication, Design Scalable Database Schemas, Build Responsive Interfaces, Integrate REST APIs, and Optimize Backend Performance.</div>
+
+                <div class="dev-action-stage" id="devActionStage" aria-hidden="true">
+                  <!-- Slide 1 -->
+                  <div class="dev-action-slide active" data-index="0">
+                    <div class="dev-action-prompt">
+                      <span class="terminal-prompt-sym">&gt;</span>
+                      <span class="dev-action-text">Build Web Applications</span>
+                    </div>
+                    <div class="dev-tech-label">Java &bull; Spring Boot</div>
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="dev-action-slide" data-index="1">
+                    <div class="dev-action-prompt">
+                      <span class="terminal-prompt-sym">&gt;</span>
+                      <span class="dev-action-text">Develop Secure REST APIs</span>
+                    </div>
+                    <div class="dev-tech-label">Spring Boot &bull; REST API</div>
+                  </div>
+
+                  <!-- Slide 3 -->
+                  <div class="dev-action-slide" data-index="2">
+                    <div class="dev-action-prompt">
+                      <span class="terminal-prompt-sym">&gt;</span>
+                      <span class="dev-action-text">Implement JWT Authentication</span>
+                    </div>
+                    <div class="dev-tech-label">Spring Security &bull; JWT</div>
+                  </div>
+
+                  <!-- Slide 4 -->
+                  <div class="dev-action-slide" data-index="3">
+                    <div class="dev-action-prompt">
+                      <span class="terminal-prompt-sym">&gt;</span>
+                      <span class="dev-action-text">Design Scalable Database Schemas</span>
+                    </div>
+                    <div class="dev-tech-label">MySQL &bull; JPA/Hibernate</div>
+                  </div>
+
+                  <!-- Slide 5 -->
+                  <div class="dev-action-slide" data-index="4">
+                    <div class="dev-action-prompt">
+                      <span class="terminal-prompt-sym">&gt;</span>
+                      <span class="dev-action-text">Build Responsive Interfaces</span>
+                    </div>
+                    <div class="dev-tech-label">React.js &bull; CSS3</div>
+                  </div>
+
+                  <!-- Slide 6 -->
+                  <div class="dev-action-slide" data-index="5">
+                    <div class="dev-action-prompt">
+                      <span class="terminal-prompt-sym">&gt;</span>
+                      <span class="dev-action-text">Integrate REST APIs</span>
+                    </div>
+                    <div class="dev-tech-label">React.js &bull; REST API</div>
+                  </div>
+
+                  <!-- Slide 7 -->
+                  <div class="dev-action-slide" data-index="6">
+                    <div class="dev-action-prompt">
+                      <span class="terminal-prompt-sym">&gt;</span>
+                      <span class="dev-action-text">Optimize Backend Performance</span>
+                    </div>
+                    <div class="dev-tech-label">Java &bull; Spring Boot</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dev-editor-footer">
+                <div class="footer-status">
+                  <span class="status-indicator"></span>
+                  <span class="footer-status-text">Ready for Production</span>
+                </div>
+                <div class="footer-meta">
+                  <!-- <span>UTF-8</span> -->
+                  <span>&bull;</span>
+                  <span>Full-Stack</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         About Section
+         ====================================================================== -->
+    <section class="about" id="about">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <!-- <span class="section-tag">01 // Discovery</span> -->
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <p class="section-subtitle">
+            Bridging robust backend engineering with thoughtful, human-centered digital experiences.
+          </p>
+        </div>
+
+        <div class="about-layout">
+          <!-- Left Column: About Description -->
+          <div class="about-col-left reveal-init stagger-1">
+            <div class="about-col-tag-wrapper">
+              <span class="about-col-tag">ABOUT DESCRIPTION</span>
+            </div>
+
+            <div class="about-text-content">
+              <p class="about-paragraph">
+                I'm Mayank Gawande, a <strong class="about-keyword">Full-Stack Developer</strong> and Computer Science student focused on building practical web applications with <strong class="about-keyword">Java</strong>, <strong class="about-keyword">Spring Boot</strong>, and <strong class="about-keyword">React</strong>. I like working across the stack, from <strong class="about-keyword">REST APIs</strong> and database design to the interface people actually use.
+              </p>
+              <p class="about-paragraph">
+                My engineering interest leans toward backend development, authentication flows, clean architecture, and responsive interfaces. I try to keep systems simple to maintain, clear to extend, and grounded in <strong class="about-keyword">problem solving</strong> rather than unnecessary complexity.
+              </p>
+              <p class="about-paragraph">
+                I keep learning through projects, iteration, and debugging real problems. Right now the goal is straightforward: keep improving as an engineer, build useful software, and stay prepared for software engineering opportunities that demand consistency and good judgment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Education + Certifications -->
+          <div class="about-col-right reveal-init stagger-2">
+            
+            <!-- Education -->
+            <div class="about-group" id="aboutEducationGroup">
+              <div class="about-group-header">
+                <div class="about-group-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <h3 class="about-group-heading">EDUCATION</h3>
+              </div>
+
+              <div class="about-card" id="aboutEducationCard">
+                <div class="about-card-top">
+                  <h4 class="about-card-title">Bachelor of Technology in Computer Science Engineering</h4>
+                  <p class="about-card-org">Bansal Group of Institute</p>
+                </div>
+
+                <div class="about-card-meta">
+                  <div class="about-meta-row">
+                    <span class="about-meta-key">Institution:</span>
+                    <span class="about-meta-val">Bansal Group of Institute</span>
+                  </div>
+                  <div class="about-meta-row">
+                    <span class="about-meta-key">CGPA:</span>
+                    <span class="about-meta-val about-cgpa-badge">8.05</span>
+                  </div>
+                  <div class="about-meta-row">
+                    <span class="about-meta-key">Duration:</span>
+                    <span class="about-meta-val">2023 — 2027</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Certifications & Achievements -->
+            <div class="about-group" id="aboutCertificationsGroup">
+              <div class="about-group-header">
+                <div class="about-group-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="6"></circle>
+                    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                  </svg>
+                </div>
+                <h3 class="about-group-heading">CERTIFICATIONS &amp; ACHIEVEMENTS</h3>
+              </div>
+
+              <div class="certifications-list" id="certificationsList">
+                <!-- 1. Smart India Hackathon 2025 -->
+                <div class="about-card" id="certSih2025">
+                  <div class="about-card-top">
+                    <div class="cert-card-header">
+                      <h4 class="about-card-title">Smart India Hackathon (SIH) 2025 Grand Finale</h4>
+                      <span class="cert-badge achievement-badge">Achievement</span>
+                    </div>
+                    <p class="about-card-org">National-level Hackathon</p>
+                    <p class="cert-desc">Qualified as Waitlisted Category in Smart India Hackathon (SIH) 2025 Grand Finale – National-level hackathon.</p>
+                  </div>
+
+                  <div class="about-card-meta">
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Category:</span>
+                      <span class="about-meta-val">Hackathon / Achievement</span>
+                    </div>
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Status:</span>
+                      <span class="about-meta-val cert-status-highlight">Waitlisted Category</span>
+                    </div>
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Year:</span>
+                      <span class="about-meta-val">2025</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2. Oracle Cloud Infrastructure Generative AI Professional -->
+                <div class="about-card" id="certOracleGenAI">
+                  <div class="about-card-top">
+                    <div class="cert-card-header">
+                      <h4 class="about-card-title">Oracle Cloud Infrastructure 2025 Generative AI Professional</h4>
+                      <span class="cert-badge">Certification</span>
+                    </div>
+                    <p class="about-card-org">Oracle</p>
+                  </div>
+
+                  <div class="about-card-meta">
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Issuing Org:</span>
+                      <span class="about-meta-val">Oracle</span>
+                    </div>
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Year:</span>
+                      <span class="about-meta-val">2025</span>
+                    </div>
+                    <div class="about-meta-row cert-action-row">
+                      <span class="about-meta-key">Credential:</span>
+                      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=F5348617AA1EB8C4A77DDC01441017930BA4C14A16C90E76B7FF9C8030F37FC2" target="_blank" rel="noopener noreferrer" class="cert-verify-btn" id="linkVerifyOracle" aria-label="Verify Oracle Cloud Infrastructure 2025 Generative AI Professional credential on Oracle (opens in a new tab)">
+                        <span>View Credential</span>
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                          <line x1="7" y1="17" x2="17" y2="7"></line>
+                          <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3. Introduction to IoT and Digital Transformation -->
+                <div class="about-card" id="certCiscoIoT">
+                  <div class="about-card-top">
+                    <div class="cert-card-header">
+                      <h4 class="about-card-title">Introduction to IoT and Digital Transformation</h4>
+                      <span class="cert-badge">Certification</span>
+                    </div>
+                    <p class="about-card-org">Cisco Networking Academy</p>
+                  </div>
+
+                  <div class="about-card-meta">
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Issuing Org:</span>
+                      <span class="about-meta-val">Cisco Networking Academy</span>
+                    </div>
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Category:</span>
+                      <span class="about-meta-val">Certification</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4. Software Development Job Simulation -->
+                <div class="about-card" id="certForageJobSim">
+                  <div class="about-card-top">
+                    <div class="cert-card-header">
+                      <h4 class="about-card-title">Software Development Job Simulation</h4>
+                      <span class="cert-badge">Job Simulation</span>
+                    </div>
+                    <p class="about-card-org">Forage</p>
+                  </div>
+
+                  <div class="about-card-meta">
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Issuing Org:</span>
+                      <span class="about-meta-val">Forage</span>
+                    </div>
+                    <div class="about-meta-row">
+                      <span class="about-meta-key">Category:</span>
+                      <span class="about-meta-val">Job Simulation</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         My Capabilities Section
+         ====================================================================== -->
+    <section class="capabilities" id="capabilities">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <!-- <span class="section-tag">02 // Expertise</span> -->
+          <h2 class="section-title">My <span class="highlight">Capabilities.</span></h2>
+          <p class="section-subtitle">
+            A comprehensive overview of my core engineering competencies, frameworks, and modern tooling ecosystem.
+          </p>
+        </div>
+
+        <div class="capabilities-grid">
+          
+          <!-- CARD 1: Core Software Engineering -->
+          <div class="capability-card reveal-init stagger-1" data-tilt id="cardCoreEngineering">
+            <div class="capability-header">
+              <div class="capability-icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="capability-title-group">
+                <h3>Core Software Engineering</h3>
+                <span class="badge">Architecture & Development</span>
+              </div>
+            </div>
+
+            <p class="capability-desc">
+              Building scalable software systems, production APIs, modern web applications, and enterprise architectures.
+            </p>
+
+            <div class="skills-wrapper">
+              <h4 class="skills-heading">Proficiencies & Technologies</h4>
+              <div class="skills-list">
+                <span class="skill-pill">Java</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">HTML5</span>
+                <span class="skill-pill">CSS3</span>
+                <span class="skill-pill">React</span>
+                <span class="skill-pill">Spring Boot</span>
+                <span class="skill-pill">Spring MVC</span>
+                <span class="skill-pill">Spring Security</span>
+                <span class="skill-pill">REST APIs</span>
+                <span class="skill-pill">Hibernate / JPA</span>
+                <span class="skill-pill">Spring Data JPA</span>
+                <span class="skill-pill">JWT</span>
+                <span class="skill-pill">OAuth2</span>
+                <span class="skill-pill">MySQL</span>
+                <!-- <span class="skill-pill">PostgreSQL</span> -->
+                <!-- <span class="skill-pill">MongoDB</span> -->
+                <span class="skill-pill">Data Structures & Algorithms</span>
+                <span class="skill-pill">System Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2: Tools -->
+          <div class="capability-card reveal-init stagger-2" data-tilt id="cardTools">
+            <div class="capability-header">
+              <div class="capability-icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div class="capability-title-group">
+                <h3>Tools</h3>
+                <span class="badge">Ecosystem & Platforms</span>
+              </div>
+            </div>
+
+            <p class="capability-desc">
+              Essential tools and platforms for development, testing, deployment, and collaboration.
+            </p>
+
+            <div class="skills-wrapper">
+              <h4 class="skills-heading">Developer Toolchain</h4>
+              <div class="skills-list">
+                <span class="skill-pill">Git</span>
+                <span class="skill-pill">GitHub</span>
+                <span class="skill-pill">IntelliJ IDEA</span>
+                <span class="skill-pill">VS Code</span>
+                <span class="skill-pill">Postman</span>
+                <!-- <span class="skill-pill">Swagger</span> -->
+                <span class="skill-pill">Docker</span>
+                <span class="skill-pill">Maven</span>
+                <!-- <span class="skill-pill">npm</span> -->
+                <span class="skill-pill">Figma</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Experience Section
+         ====================================================================== -->
+    <section class="experience" id="experience">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <!-- <span class="section-tag">03 // Journey</span> -->
+          <h2 class="section-title">Internship <span class="highlight">Experience</span></h2>
+          <p class="section-subtitle">
+            Hands-on software development experience delivering production features in collaborative team environments.
+          </p>
+        </div>
+
+        <div class="experience-timeline">
+          
+          <!-- Internship 1 -->
+          <div class="timeline-item reveal-init stagger-1">
+            <div class="timeline-node"></div>
+            <div class="experience-card" id="expCard1">
+              <div class="experience-header">
+                <div>
+                  <h3 class="role-title">Web Development Intern</h3>
+                  <div class="company-badge">
+                    <span>UpToSkills</span>
+                    <span class="internship-type">Internship</span>
+                  </div>
+                </div>
+                <div class="duration-tag">Feb 2026 – May 2026</div>
+              </div>
+
+              <ul class="experience-tasks">
+                <li>Built responsive web pages with React.js and CSS and developed secure REST APIs in Java/Spring Boot with JWT-based authentication and role-based authorization.</li>
+                <li>Designed MySQL schemas and used JPA/Hibernate for data persistence, optimizing queries for core platform features.</li>
+                <li>Used Git, Docker, and CLI tools for version control, containerized builds, and debugging, leveraging GitHub Copilot to speed up development while reviewing all code for quality and security.</li>
+              </ul>
+
+              <div class="experience-tech-stack">
+                <span class="badge">React.js</span>
+                <span class="badge">CSS</span>
+                <span class="badge">Java</span>
+                <span class="badge">Spring Boot</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">JWT</span>
+                <span class="badge">MySQL</span>
+                <span class="badge">JPA/Hibernate</span>
+                <span class="badge">Git</span>
+                <span class="badge">Docker</span>
+                <!-- <span class="badge">CLI</span> -->
+                <span class="badge">GitHub Copilot</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Internship 2 -->
+          <div class="timeline-item reveal-init stagger-2">
+            <div class="timeline-node"></div>
+            <div class="experience-card" id="expCard2">
+              <div class="experience-header">
+                <div>
+                  <h3 class="role-title">Web Developer Intern</h3>
+                  <div class="company-badge">
+                    <span>Vaults of Code</span>
+                    <span class="internship-type">Internship</span>
+                  </div>
+                </div>
+                <div class="duration-tag">May 2026 – July 2026</div>
+              </div>
+
+              <ul class="experience-tasks">
+                <li>Built 5+ responsive web pages using React.js and CSS3.</li>
+                <li>Improved page load time by 32% through code splitting and lazy loading.</li>
+                <li>Developed secure REST APIs with user authentication and authorization.</li>
+                <li>Collaborated with the backend team while consuming REST APIs.</li>
+                <li>Implemented error handling, request validation, and loading states.</li>
+              </ul>
+
+              <div class="experience-tech-stack">
+                <span class="badge">React.js</span>
+                <span class="badge">CSS3</span>
+                <span class="badge">Java</span>
+                <span class="badge">Spring Boot</span>
+                <span class="badge">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Projects Section
+         ====================================================================== -->
+    <section class="projects" id="projects">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <!-- <span class="section-tag">04 // Showcase</span> -->
+          <h2 class="section-title">Projects<span class="highlight">.</span></h2>
+          <p class="section-subtitle">
+            Real-world projects demonstrating full-stack development, AI integration, and problem-solving.
+          </p>
+        </div>
+
+        <div class="projects-layout">
+          
+          <!-- FEATURED PROJECT: Home Tutor -->
+          <article class="featured-project-card reveal-init stagger-1" id="projectHomeTutor">
+            <div class="featured-project-content">
+              <div>
+                <div class="project-category-tag">FEATURED PROJECT</div>
+                <h3 class="featured-project-title">TutorHub</h3>
+              </div>
+
+              <p class="featured-project-desc">
+                A full-stack online tutoring platform designed to connect students with tutors through a streamlined learning and booking experience.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="badge">React</span>
+                <span class="badge">Spring Boot</span>
+                <span class="badge">JWT</span>
+                <span class="badge">Hibernate</span>
+                <span class="badge">Microservices</span>
+                <span class="badge">API Gateway</span>
+              </div>
+
+              <div class="project-features-block">
+                <span class="project-features-label">Key Features</span>
+                <ul class="project-features-list">
+                  <li>Tutor discovery and filtering</li>
+                  <li>Booking and session management</li>
+                  <li>Role-based access for students, tutors, and admins</li>
+                  <li>Responsive React interface</li>
+                </ul>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/mayankgawande23/Home-Tutor" target="_blank" rel="noopener noreferrer" class="btn btn-primary project-btn" aria-label="View Home Tutor on GitHub">
+                  <span>View on GitHub</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="featured-project-preview">
+              <div class="project-demo-placeholder">
+                <div class="demo-placeholder-grid"></div>
+                <div class="demo-placeholder-content">
+                  <div class="demo-play-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                    </svg>
+                  </div>
+                  <span class="demo-title">PROJECT DEMO</span>
+                  <span class="demo-subtitle">Demo video coming soon</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- SECONDARY PROJECTS GRID -->
+          <div class="secondary-projects-grid">
+            
+            <!-- Project 2: AI Resume Bullet Point Enhancer -->
+            <article class="secondary-project-card reveal-init stagger-2" id="projectResumeEnhancer">
+              <div class="secondary-card-header">
+                <span class="project-category-tag ai-tag">AI PROJECT</span>
+              </div>
+
+              <h3 class="secondary-project-title">AI Resume Bullet Point Enhancer</h3>
+              <p class="secondary-project-desc">
+                An AI-powered tool that helps improve resume bullet points by making them clearer, more impactful, and more ATS-friendly.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="badge">React</span>
+                <span class="badge">Java</span>
+                <span class="badge">Spring Boot</span>
+                <span class="badge">OpenAI API</span>
+              </div>
+
+              <div class="project-features-block">
+                <span class="project-features-label">Key Features</span>
+                <ul class="project-features-list">
+                  <li>Accepts rough resume bullet points</li>
+                  <li>Returns polished professional phrasing</li>
+                  <li>REST endpoint for enhancement requests</li>
+                  <li>OpenAI-powered text generation</li>
+                </ul>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/mayankgawande23/AI-Resume-Bullet-Point-Enhancer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary project-btn" aria-label="View AI Resume Bullet Point Enhancer on GitHub">
+                  <span>View on GitHub</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <!-- Project 3: Hospital Management System -->
+            <article class="secondary-project-card reveal-init stagger-3" id="projectHospitalManagement">
+              <div class="secondary-card-header">
+                <span class="project-category-tag fullstack-tag">FULL-STACK PROJECT</span>
+              </div>
+
+              <h3 class="secondary-project-title">Hospital Management System</h3>
+              <p class="secondary-project-desc">
+                A Java hospital management application designed to simplify patient, staff, appointment, inventory, and billing workflows.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="badge">Java</span>
+                <span class="badge">Spring Boot</span>
+                <span class="badge">JWT</span>
+                 <span class="badge">Hibernate/JPA</span>
+              </div>
+
+              <div class="project-features-block">
+                <span class="project-features-label">Key Features</span>
+                <ul class="project-features-list">
+                  <li>Patient and staff management domains</li>
+                  <li>Appointment workflow support</li>
+                  <li>Inventory and billing modules</li>
+                  <li>Secure authentication and role-based access</li>
+                </ul>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/mayankgawande23/Hospital-Management" target="_blank" rel="noopener noreferrer" class="btn btn-secondary project-btn" aria-label="View Hospital Management on GitHub">
+                  <span>View on GitHub</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Contact Section
+         ====================================================================== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <!-- <span class="section-tag">05 // Connect</span> -->
+          <h2 class="section-title">Let's build something <span class="highlight">meaningful.</span></h2>
+          <p class="section-subtitle">
+            Whether you have an engineering role, a collaborative project idea, or simply want to connect—my inbox is always open.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Direct Channels -->
+          <div class="contact-info reveal-init stagger-1">
+            <div class="contact-header-text">
+              <h3>Get In Touch</h3>
+              <p>
+                I am actively seeking software engineering and full-stack developer opportunities where I can contribute to high-impact technical initiatives.
+              </p>
+            </div>
+
+            <div class="contact-channels">
+              <!-- Email Card -->
+              <div class="contact-channel-card" id="contactEmailCard">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="channel-label">Email</div>
+                  <div class="channel-value">mayankgawande23@gmail.com</div>
+                </div>
+                <button class="copy-btn" id="copyEmailBtn" aria-label="Copy Email to Clipboard">Copy</button>
+              </div>
+
+              <!-- GitHub Card -->
+              <a href="https://github.com/mayankgawande23" target="_blank" rel="noopener noreferrer" class="contact-channel-card" id="contactGithubCard">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="channel-label">GitHub</div>
+                  <div class="channel-value">github.com/mayankgawande23</div>
+                </div>
+              </a>
+
+              <!-- LinkedIn Card -->
+              <a href="https://www.linkedin.com/in/mayankgawande/" target="_blank" rel="noopener noreferrer" class="contact-channel-card" id="contactLinkedinCard">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="channel-label">LinkedIn</div>
+                  <div class="channel-value">linkedin.com/in/mayankgawande/</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Interactive Form -->
+          <div class="contact-form-card reveal-init stagger-2">
+            <form id="contactForm" novalidate>
+              <!-- Anti-Spam Honeypot Field (Hidden from normal users) -->
+              <div class="form-honeypot" style="display: none !important;" aria-hidden="true">
+                <label for="formWebsite">Leave this field empty</label>
+                <input type="text" id="formWebsite" name="website" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name</label>
+                <input type="text" id="senderName" name="name" class="form-input" placeholder="e.g. Jane Doe" autocomplete="name" required />
+                <span class="form-field-error" id="nameError">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Email Address</label>
+                <input type="email" id="senderEmail" name="email" class="form-input" placeholder="jane@example.com" autocomplete="email" required />
+                <span class="form-field-error" id="emailError">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="messageSubject" class="form-label">Subject</label>
+                <input type="text" id="messageSubject" name="subject" class="form-input" placeholder="Software Engineering Opportunity / Project Discussion" required />
+                <span class="form-field-error" id="subjectError">Please enter a subject.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="messageBody" class="form-label">Message</label>
+                <textarea id="messageBody" name="message" class="form-textarea" placeholder="Hello Mayank, I came across your portfolio and would like to connect regarding..." required></textarea>
+                <span class="form-field-error" id="messageError">Please enter your message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit-btn" id="formSubmitBtn">
+                Send Message
+                <span>→</span>
+              </button>
+
+              <div class="form-status-alert" id="formAlert" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       Footer
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="code-bracket">&lt;</span>Mayank Gawande<span class="code-bracket"> /&gt;</span>
+      </div>
+
+      <p class="footer-tagline">
+        Engineered with precision, scalable system architecture, and pure web standards.
+      </p>
+
+      <div class="footer-socials">
+        <a href="https://github.com/mayankgawande23" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mayankgawande/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="mailto:mayankgawande23@gmail.com" class="social-link" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-meta">
+        <!-- <div>© <span id="currentYear">2026</span> Mayank Gawande. All rights reserved.</div> -->
+        <!-- <div class="badge">Pure HTML5 • CSS3 • Vanilla JavaScript</div> -->
+        <button class="back-to-top" id="backToTopBtn">
+          Back to Top <span>↑</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EmailJS Browser Client-Side SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- Core JavaScript -->
+  <script type="module" src="/js/script.js"></script>
+</body>
+</html>
